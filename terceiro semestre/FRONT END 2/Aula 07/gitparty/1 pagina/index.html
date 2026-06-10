@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baladinha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Top Evento's</h1>
+        <button onclicj="abrirModal()">+Eventos</button>
+    </header>
+    <main>
+    </main>
+
+    <div id ="modalEventos" class="modal">
+        <form id = formEventos class="modal-content">
+            <h2>Nova receita</h2>
+            <div id = "capa">
+                <input type="text" id = "img" name="Imagem do evento" placeholder="Cole o linkda imagem aqui"> </div>
+                <input type="text" name = "titulo" placeholder="Titulo do evento">
+                <input type="text" name = "descricao" placeholder="Descricao">
+                <input type="text" name = "data_evento" placeholder="Data do evento">
+                <input type="text" name = "local" placeholder="Local">
+                <input type="text" name = "capacidade_maxima" placeholder="Capacidade de pessoas">]
+                <input type="text" name = "status" placeholder="Status">
+                <input type="text" name = "inscricoes" placeholder="Incricoes do evento">
+                <div class="modal-buttons">
+                <button type="submit">Salvar</button>
+                <button type="reset" onclick ="fecharModal()">Cancelar</button>
+            </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
